@@ -1,0 +1,19 @@
+.clock {
+	background: #C9D6FF;
+	background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+	background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+}
+
+@font-face {
+	/* download clock font: http://bootstraptema.ru/stuff/0-0-0-2478-20 */
+	font-family: "alarm clock";
+	src: url("alarm_clock.eot?") format("eot"), url("alarm_clock.woff")
+		format("woff"), url("alarm_clock.ttf") format("truetype"),
+		url("alarm_clock.svg#alarmclock") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+h3, a {
+	font-family: 'alarm clock';
+}
